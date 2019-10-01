@@ -17,11 +17,12 @@
         'security/ir.model.access.csv',
         'views/awesome_tshirt_views.xml',
         'views/templates.xml',
-        #'views/my_customer.xml'
     ],
     'license': 'AGPL-3',
     'qweb': [
         'static/src/xml/awesome_dashboard.xml',
+        'static/src/xml/form_view.xml',
         'static/src/xml/my_counter.xml',
+        'static/src/xml/warning_widget.xml',
     ]
 }
