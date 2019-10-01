@@ -1,0 +1,15 @@
+<odoo>
+    <template id="assets_backend" name="awesome_dashboard assets" inherit_id="web.assets_backend">
+        <xpath expr="//script[last()]" position="after">
+            <link rel="stylesheet" type="text/scss" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.css"/>
+            <script type="text/javascript" src="/awesome_tshirt/static/lib/chart.js/Chart.js"></script>          
+            
+            <script type="text/javascript" src="/awesome_tshirt/static/src/js/awesome_counter.js"></script>
+            <script type="text/javascript" src="/awesome_tshirt/static/src/js/awesome_buttons.js"></script>
+            <script type="text/javascript" src="/awesome_tshirt/static/src/js/awesome_statistics.js"></script>
+            <script type="text/javascript" src="/awesome_tshirt/static/src/js/awesome_pie.js"></script>
+
+            <script type="text/javascript" src="/awesome_tshirt/static/src/js/awesome_dashboard.js"></script>
+        </xpath>
+    </template>
+</odoo>
